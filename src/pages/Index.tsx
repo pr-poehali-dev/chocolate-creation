@@ -8,6 +8,14 @@ import Icon from '@/components/ui/icon';
 const products = [
   {
     id: 1,
+    name: 'Мирончик Гандончик 🍫',
+    price: 199,
+    category: 'Сладости',
+    image: 'https://cdn.poehali.dev/projects/9efa0495-a321-4871-a3f8-98737b04b2da/files/f2be5d3e-d603-4476-abb2-c53e2b550493.jpg',
+    tags: ['Хит продаж', 'Эксклюзив']
+  },
+  {
+    id: 2,
     name: 'Креативный набор',
     price: 2990,
     category: 'Творчество',
@@ -15,15 +23,15 @@ const products = [
     tags: ['Новинка', 'Популярное']
   },
   {
-    id: 2,
+    id: 3,
     name: 'Дизайнерский элемент',
     price: 4500,
     category: 'Дизайн',
     image: 'https://cdn.poehali.dev/projects/9efa0495-a321-4871-a3f8-98737b04b2da/files/272b5cd3-0357-4ed3-b324-4db07449f731.jpg',
-    tags: ['Хит продаж']
+    tags: ['Популярное']
   },
   {
-    id: 3,
+    id: 4,
     name: 'Арт-коллекция',
     price: 3200,
     category: 'Творчество',
@@ -31,7 +39,7 @@ const products = [
     tags: ['Новинка']
   },
   {
-    id: 4,
+    id: 5,
     name: 'Премиум набор',
     price: 5990,
     category: 'Премиум',
@@ -39,7 +47,7 @@ const products = [
     tags: ['Эксклюзив']
   },
   {
-    id: 5,
+    id: 6,
     name: 'Студийный комплект',
     price: 3700,
     category: 'Дизайн',
@@ -47,7 +55,7 @@ const products = [
     tags: ['Популярное']
   },
   {
-    id: 6,
+    id: 7,
     name: 'Минималистичный стиль',
     price: 2500,
     category: 'Творчество',
@@ -56,7 +64,7 @@ const products = [
   }
 ];
 
-const categories = ['Все', 'Творчество', 'Дизайн', 'Премиум'];
+const categories = ['Все', 'Сладости', 'Творчество', 'Дизайн', 'Премиум'];
 
 export default function Index() {
   const [searchQuery, setSearchQuery] = useState('');
